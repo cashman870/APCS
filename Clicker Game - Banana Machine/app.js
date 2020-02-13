@@ -8,7 +8,7 @@ function setup(){
     heading = createElement('h2', 'Click The Banana!')
     heading.position(width/3, height/4)
     frameRate(2)
-    button = createButton('Go To Main Page');
+    button = createButton('Return to Homepage');
     button.position(width / 2, height / 2)
     button.mousePressed(goToLink)
 }
