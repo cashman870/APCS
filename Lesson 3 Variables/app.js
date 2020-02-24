@@ -35,9 +35,43 @@
 // console.log('and a: ' + roll2)
 // console.log('For a total of: ' + totalRoll)
 
-let a = 3
-let b = 7
-a = b
-b = a
-console.log(a)
-console.log(b)
+//VARIABLE REASIGNMENT
+
+// let a = 3
+// let b = 7
+// a = b
+// b = a
+// console.log(a)
+// console.log(b)
+
+// let someNum = 7
+// someNum = someNum + 1
+// console.log("The value of someNum is now " + someNum)
+// someNum = someNum + 1
+// console.log("The value of someNum is now " + someNum)
+// someNum = someNum + 1
+// console.log("The value of someNum is now " + someNum)
+// someNum = someNum * someNum
+// console.log("The value of someNum is now " + someNum)
+
+//CHALLENGES
+
+// let x = 2
+// let y = 3
+// y = x + y
+// console.log("The value of y is: " + y + " (y should be 5)")
+
+// let x = 7;
+// let y = 3;
+// y = x - y
+// console.log("The value of y is: " + y)
+
+// let x = 2
+// let y = 3
+// x = x + x + y
+// console.log("The value of x: " + x)
+
+// let x = 2
+// x = x + x + x + x
+// console.log("The value of x is: " + x)
+
