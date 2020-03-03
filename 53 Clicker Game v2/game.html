@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Click The Banana -- Play</title>
+    <title>Click'a da Fish -- Play</title>
     <style>
       html,
       body {
@@ -21,10 +21,23 @@
         /* This centers the sketch vertically. */
         align-items: center;
       }
+      h1 { 
+            animation: fadeInAnimation ease 5s; 
+            animation-iteration-count: 1; 
+            animation-fill-mode: forwards; 
+            animation-direction: reverse;
+        } 
+        @keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+        }
     </style>
   </head>
   <body>
-    <img src = 'banana.png'>
     <script src="game.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
   </body>
